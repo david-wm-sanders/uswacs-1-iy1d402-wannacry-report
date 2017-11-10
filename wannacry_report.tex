@@ -1,0 +1,49 @@
+% !TEX TS-program = pdflatex
+\documentclass[12pt]{article}
+
+% Package the packages
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage[a4paper, margin=1in]{geometry}
+%\usepackage[nottoc,numbib]{tocbibind}
+\usepackage[round]{natbib}
+%\usepackage{pdfpages}
+% -
+
+% Configuration
+% Change font to Palatino
+\renewcommand{\rmdefault}{ppl}
+% Set the bibliography style
+\bibliographystyle{agsm}
+% -
+
+% Definitions
+\title{WannaCry Attack Report}
+\author{David Sanders\\17135397}
+\date{\today}
+% -
+
+% Document
+\begin{document}
+
+% Cover page setup
+\maketitle
+%\pagebreak
+%\tableofcontents
+%\pagebreak
+% -
+
+% Abstract
+\begin{abstract}
+Some text here...
+\end{abstract}
+
+\section{Project}
+
+% BIBLIOGRAPHY/REFERENCES
+\pagebreak
+\bibliography{references}
+% -
+
+\end{document}
