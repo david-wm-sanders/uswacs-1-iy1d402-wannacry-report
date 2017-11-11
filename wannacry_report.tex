@@ -7,6 +7,7 @@
 \usepackage{lmodern}
 \usepackage[a4paper, margin=1in]{geometry}
 %\usepackage[nottoc,numbib]{tocbibind}
+\usepackage{hyperref}
 \usepackage[round]{natbib}
 %\usepackage{pdfpages}
 % -
@@ -41,20 +42,36 @@
 
 \section{Introduction}
 % >What is this report about?
+WannaCry is a piece of ransomware that was released in early-mid 2017. It spread quickly through organisations which had not patched their machines in a timely fashion following the release of the exploit that it utilised in order to spread.
 
-\section{What was WannaCry?}
+This report will examine WannaCry, the timeline of the attack phase from first detection onwards, and the wider implications of the attack. The conditions that made the attack possible will also be examined.
 
-\section{Attack Phase}
+
+\section{What is WannaCry?}
+The global WannaCry cyberattack began in May 2017 when the WannaCry cryptoworm ransomware began to spread quickly by exploiting an exploit in the Windows' SMB (\textbf{S}erver \textbf{M}essage \textbf{B}lock) protocol.
+
+The ransomware targeted the Microsoft Windows operating system -- encrypting data on writable media connected to the computer before demanding that the user pay a ransom payment using the Bitcoin cryptocurrency in exchange for the decryption key required to unlock their files.
+
+According to a report published by \citet[May 15th]{pdf:CERT-LT:WannaCry-Ransomware-Report-v1.0:20170615}, WannaCry is also known as Wana Decrypt0r, WCry, WannaCrypt, and WanaCrypt0r.
+
+
+\section{Attack Phases}
 \subsection{Timeline}
 \subsection{Wider Implications}
 
 \section{Why was the attack possible?}
 \subsection{Conditions}
 
+% \section{Who was behind the WannaCry attack?}
+
 \section{Conclusion}
 
 % BIBLIOGRAPHY/REFERENCES
 \pagebreak
+
+% nocited references
+
+
 \bibliography{references}
 % -
 

@@ -1,0 +1,22 @@
+# RESEARCH
+
+## Links
+* [Wikipedia/WannaCry](https://en.wikipedia.org/wiki/WannaCry_ransomware_attack)
+* [Wikipedia/Cryptovirology](https://en.wikipedia.org/wiki/Cryptovirology)
+* [BBC News/"Cyber-attack: Europol says it was unprecedented in scale"](http://www.bbc.com/news/world-europe-39907965)
+* [MalwareWikia/WannaCry](http://malware.wikia.com/wiki/WannaCry)
+* [Symantec/WannaCry](https://www.symantec.com/connect/blogs/what-you-need-know-about-wannacry-ransomware)
+* [Symantec/WannaCry-Lazarus Group Attribution](https://www.symantec.com/connect/blogs/wannacry-ransomware-attacks-show-strong-links-lazarus-group)
+* [Symantec/Ransom.Wannacry](https://www.symantec.com/security_response/writeup.jsp?docid=2017-051310-3522-99)
+* [Wired/WannaCry](http://www.wired.co.uk/article/wannacry-ransomware-virus-patch)
+* [FireEye/WannaCry Malware Profile](https://www.fireeye.com/blog/threat-research/2017/05/wannacry-malware-profile.html)
+* [Secureworks/WCry Analysis](https://www.secureworks.com/research/wcry-ransomware-analysis)
+* [NAO/WannaCry Report](https://www.nao.org.uk/wp-content/uploads/2017/10/Investigation-WannaCry-cyber-attack-and-the-NHS.pdf)
+* [NCSC/Statement](https://www.ncsc.gov.uk/news/latest-statement-international-ransomware-cyber-attack-0)
+* [NCSC/Guide for enterprise administrators regarding WannaCry](https://www.ncsc.gov.uk/guidance/ransomware-wannacry-guidance-enterprise-administrators-1)
+* [EY/"WannaCry ransomware attack - Technical intelligence analysis May 2017" Report](http://www.ey.com/Publication/vwLUAssets/ey-wannacry-ransomware-attack/$File/ey-wannacry-ransomware-attack.pdf)
+* [CERT-US/Alert(TA17-132A)](https://www.us-cert.gov/ncas/alerts/TA17-132A)
+* [ENISA/WannaCry Ransomware Outburst](https://www.enisa.europa.eu/publications/info-notes/wannacry-ransomware-outburst)
+* [ENISA/Cyber Cooperation at EU level in response to the WannaCry ransomware](https://www.enisa.europa.eu/news/enisa-news/wannacry-ransomware-first-ever-case-of-cyber-cooperation-at-eu-level)
+* [CERT-LT/WannaCry Report](https://www.cert.lt/doc/ENISA-WannaCry-v1.0.pdf)
+* [CERT-EU/WannaCry Report](https://cert.europa.eu/static/SecurityAdvisories/2017/CERT-EU-SA2017-012.pdf)
