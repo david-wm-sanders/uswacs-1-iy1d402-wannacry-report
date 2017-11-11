@@ -20,3 +20,6 @@
 * [ENISA/Cyber Cooperation at EU level in response to the WannaCry ransomware](https://www.enisa.europa.eu/news/enisa-news/wannacry-ransomware-first-ever-case-of-cyber-cooperation-at-eu-level)
 * [CERT-LT/WannaCry Report](https://www.cert.lt/doc/ENISA-WannaCry-v1.0.pdf)
 * [CERT-EU/WannaCry Report](https://cert.europa.eu/static/SecurityAdvisories/2017/CERT-EU-SA2017-012.pdf)
+* [MS17-010](https://technet.microsoft.com/en-us/library/security/ms17-010.aspx)
+* [SophosNakedSec/WannaCry](https://nakedsecurity.sophos.com/2017/05/17/wannacry-the-ransomware-worm-that-didnt-arrive-on-a-phishing-hook/)
+* [Nominum/WannaCry from the DNS frontline](https://www.nominum.com/tech-blog/wannacry-views-dns-frontline/)
