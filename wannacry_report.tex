@@ -7,8 +7,9 @@
 \usepackage{lmodern}
 \usepackage[a4paper, margin=0.75in]{geometry}
 \usepackage{enumitem}
-\usepackage[colorlinks=true, linkcolor=red, citecolor=black, urlcolor=blue]{hyperref}
+\usepackage[colorlinks=true, linkcolor=black, citecolor=black, urlcolor=blue]{hyperref}
 \usepackage[round]{natbib}
+\usepackage[parfill]{parskip}
 % -
 
 % Configuration
@@ -32,8 +33,8 @@
 % Cover page setup
 \maketitle
 %\pagebreak
-%\tableofcontents
-%\pagebreak
+\tableofcontents
+\pagebreak
 % -
 
 % Abstract
@@ -43,7 +44,7 @@
 
 \section{Introduction}
 % >What is this report about?
-WannaCry is a piece of ransomware that was released in early-mid 2017. It spread quickly through organisations which had not patched their machines in a timely fashion following the release of the exploit that it utilised in order to spread.
+WannaCry is a piece of ransomware that was released in early-mid 2017. It spread quickly through organisations that had not patched their machines in a timely fashion following the release of the exploit that it utilised in order to spread.
 
 This report will provide a simple overview of WannaCry before examining the timeline and wider implications of the attack. The conditions that made the attack possible will also be examined.
 
@@ -53,14 +54,14 @@ The global WannaCry cyberattack began in May 2017 when the WannaCry cryptoworm r
 
 The ransomware targeted the Microsoft Windows operating system -- encrypting data on writable media connected to the computer before demanding that the user pay a ransom payment using the Bitcoin cryptocurrency in exchange for the decryption key required to unlock their files.
 
-According to a report published by \citet[May 15\textsuperscript{th}]{pdf:CERT-LT:WannaCry-Ransomware-Report-v1.0:20170615}, WannaCry is also known as Wana Decrypt0r, WCry, WannaCrypt, and WanaCrypt0r.
+According to a report published by \citet{pdf:CERT-LT:WannaCry-Ransomware-Report-v1.0:20170615}, WannaCry is also known as Wana Decrypt0r, WCry, WannaCrypt, and WanaCrypt0r.
 
 
 \section{Timeline and Attack Phases}
 \subsection{Developments in the months before the attack}
 \begin{itemize}
   \item 2017/01/16: US-CERT issues \href{https://www.us-cert.gov/ncas/current-activity/2017/01/16/SMB-Security-Best-Practices}{SMB vulnerability advisory}
-  \item 2017/02/10: The first WannaCry infection is found in the wild by Symantec's Security Response Team \citep[May 22\textsuperscript{nd}]{blog:symantec:wannacry-lazarus:20170622}
+  \item 2017/02/10: The first WannaCry infection is found in the wild by Symantec's Security Response Team \citep{blog:symantec:wannacry-lazarus:20170622}
   \item 2017/03/14: Microsoft issue a \href{https://technet.microsoft.com/en-us/library/security/ms17-010.aspx}{patch} for \href{https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-0144}{CVE-2017-0144}
   \item 2017/04/14: The Shadow Brokers release code for the EternalBlue exploit
   \item 2017/05/10: CVE-2017-0144 exploit added to ExploitDB
@@ -68,16 +69,16 @@ According to a report published by \citet[May 15\textsuperscript{th}]{pdf:CERT-L
 \subsection{Main Attack}
 On the 12\textsuperscript{th} May 2017, a new version of WannaCry began to spread quickly by using the EternalBlue exploit.
 
-An investigation by Nominum discovered that the ``first evidence for WannaCry was found at 7:44am UTC, when a client from an ISP in Southeast Asia hit WannaCry’s kill-switch domain'' \citep[May 15\textsuperscript{th}]{blog:nominum:wannacry-dns:20170615}. The first victims in the UK were seen at about 10:00am UTC and the malware spread quickly through the NHS -- infecting one third of NHS Trusts in England according to an investigation by the NAO \citep[October 27\textsuperscript{th}]{site:nao:wannacry-nhs:20171027}.
+An investigation by Nominum discovered that the ``first evidence for WannaCry was found at 7:44am UTC, when a client from an ISP in Southeast Asia hit WannaCry’s kill-switch domain'' \citep{blog:nominum:wannacry-dns:20170615}. The first victims in the UK were seen at about 10:00am UTC and the malware spread quickly through the NHS -- infecting one third of NHS Trusts in England according to an investigation by the NAO \citep{site:nao:wannacry-nhs:20171027}.
 
-The attack was stopped when cybersecurity research Marcus Hutchins registered a domain name which had been found during an analysis of the malware binaries. This deactivated WannaCry's ability to spread automatically -- checking for the domain was a \textit{kill-switch} built in by the authors.
+The attack was stopped when cybersecurity researcher Marcus Hutchins registered a domain name which had been found during an analysis of the malware binaries. This deactivated WannaCry's ability to spread automatically -- checking for the domain was a \textit{kill-switch} built in by the authors.
 
 \subsection{Wider Implications}
-The impact on England's NHS was that nearly 7000 appointments and operations were cancelled as a direct result of the ransomware and this included urgent referrals \citep[October 27\textsuperscript{th}]{site:nao:wannacry-nhs:20171027}.
+The impact on England's NHS was that nearly 7000 appointments and operations were cancelled as a direct result of the ransomware and this included urgent referrals \citep{site:nao:wannacry-nhs:20171027}.
 
 \section{Why was the attack possible?}
 \subsection{Conditions}
-According to Kingsley Manning, a former chairman of NHS Digital, who was interviewed on BBC Radio 4's Today programme on the 27th October 2017, ``this was an extremely unsophisticated attack'' \citep[October 27\textsuperscript{th}]{radiointerview:bbcr4:today:20171027}. He went on to say ``a failure to upgrade old computer systems at a local level within the NHS had contributed to the rapid spread of the malware.'' He also added that ``the problem with cyber security for the NHS is that it has a particular vulnerability... It is very interconnected so that if you get an attack in one place it tends to spread.''
+According to Kingsley Manning, a former chairman of NHS Digital, who was interviewed on BBC Radio 4's Today programme on the 27th October 2017, ``this was an extremely unsophisticated attack'' \citep{radiointerview:bbcr4:today:20171027}. He went on to say ``a failure to upgrade old computer systems at a local level within the NHS had contributed to the rapid spread of the malware.'' He also added that ``the problem with cyber security for the NHS is that it has a particular vulnerability... It is very interconnected so that if you get an attack in one place it tends to spread.''
 
 The attack was also possible because NHS organisations failed to spend enough time and resources, keep a focus on the need for cyber-security, and did not keep up-to-date with improvements. Advisory information on securing against SMB vulnerabilities that was released months before the attack in January was not acted upon. NHS IT departments did not properly manage firewalls -- traffic on the SMB port could have been blocked/denied as soon as the \textit{EternalBlue} exploit was released.
 
