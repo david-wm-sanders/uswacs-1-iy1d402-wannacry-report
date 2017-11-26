@@ -988,7 +988,6 @@ FUNCTION {article}
   format.doi output
   new.block
   format.url output
-  new.block
   format.note output
   format.eprint output
   fin.entry
@@ -1027,7 +1026,6 @@ FUNCTION {book}
   format.doi output
   new.block
   format.url output
-  new.block
   format.note output
   format.eprint output
   fin.entry
@@ -1046,7 +1044,6 @@ FUNCTION {booklet}
   format.doi output
   new.block
   format.url output
-  new.block
   format.note output
   format.eprint output
   fin.entry
@@ -1091,7 +1088,6 @@ FUNCTION {inbook}
   format.doi output
   new.block
   format.url output
-  new.block
   format.note output
   format.eprint output
   fin.entry
@@ -1122,7 +1118,6 @@ FUNCTION {incollection}
   format.doi output
   new.block
   format.url output
-  new.block
   format.note output
   format.eprint output
   fin.entry
@@ -1157,7 +1152,6 @@ FUNCTION {inproceedings}
   format.doi output
   new.block
   format.url output
-  new.block
   format.note output
   format.eprint output
   fin.entry
@@ -1177,7 +1171,6 @@ FUNCTION {manual}
   format.doi output
   new.block
   format.url output
-  new.block
   format.note output
   format.eprint output
   fin.entry
@@ -1198,7 +1191,6 @@ FUNCTION {mastersthesis}
   format.doi output
   new.block
   format.url output
-  new.block
   format.note output
   format.eprint output
   fin.entry
@@ -1216,7 +1208,6 @@ FUNCTION {misc}
   format.doi output
   new.block
   format.url output
-  new.block
   format.note output
   format.eprint output
   fin.entry
@@ -1236,7 +1227,6 @@ FUNCTION {phdthesis}
   format.doi output
   new.block
   format.url output
-  new.block
   format.note output
   format.eprint output
   fin.entry
@@ -1263,7 +1253,6 @@ FUNCTION {proceedings}
   format.doi output
   new.block
   format.url output
-  new.block
   format.note output
   format.eprint output
   fin.entry
@@ -1284,7 +1273,6 @@ FUNCTION {techreport}
   format.doi output
   new.block
   format.url output
-  new.block
   format.note output
   format.eprint output
   fin.entry
@@ -1300,7 +1288,6 @@ FUNCTION {unpublished}
   format.doi output
   new.block
   format.url output
-  new.block
   format.note "note" output.check
   format.eprint output
   fin.entry
